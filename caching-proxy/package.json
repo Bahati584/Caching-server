@@ -1,0 +1,20 @@
+{
+  "name": "caching-proxy",
+  "version": "1.0.0",
+  "description": "A CLI tool that starts a caching proxy server, forwarding requests to an origin server and caching responses.",
+  "type": "commonjs",
+  "bin": {
+    "caching-proxy": "./bin/caching-proxy.js"
+  },
+  "main": "lib/server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node bin/caching-proxy.js"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "license": "MIT"
+}
